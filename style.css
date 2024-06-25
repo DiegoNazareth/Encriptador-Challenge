@@ -1,0 +1,84 @@
+
+html, body{
+    margin: 5px;
+    height: 100%;
+    background-color: #f0f1eb;
+    
+    
+}
+.principal {
+    height: 100%;
+}
+header{
+    width: 66%;
+    height: 20%;
+    background: #f0f1eb;
+    padding:10px 0;
+    float: left;
+    
+}
+.caja{
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+  
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo img{
+    width: 130px;
+    
+}
+
+nav, h1{ 
+    
+    display: inline-block;
+    align-self: center;
+    
+}
+aside{
+    vertical-align: top;
+    width: 33%;
+    height: 100%;
+    float:  right;
+    background:  #f0f1eb;
+   
+}
+#mensaje{
+    display: none;
+}
+#imagenNoEncontrado{
+    display: none;
+}
+#mensajeNoEncontrado{
+    display: none;
+}
+section{
+
+    display: inline-block;
+    width: 66%;
+    height: 40%;
+    background:  #f0f1eb;
+    padding:40px 0;
+}
+.botonesyaviso{
+    
+    display: inline-block;
+    background:  #f0f1eb;
+}
+#aviso{
+    display: none;
+}
+
+footer{
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+    
+}
+
+
+

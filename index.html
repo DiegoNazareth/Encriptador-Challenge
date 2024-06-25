@@ -8,6 +8,47 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-        <h1>Encriptador</h1>
+    <div class="principal">
+      <header>
+     
+      <div class="caja">
+        <div class="logo">
+          <img src="./img/_706b8711-c06f-4769-b760-aeb3594045b8.jpg" alt="logo encriptador" >
+          
+         
+        </div>
+        <nav>
+          <h1>Encriptador</h1>
+        </nav>
+      </div>
+      
+    </header>
+    <aside>
+      <textarea name="" id="mensaje" class="mensaje" cols="30" rows="10"></textarea>
+         <img id="imagenNoEncontrado" src="./img/no resultados.png" alt="" srcset="">
+         <span id="mensajeNoEncontrado">Ningún Mensaje fue encontrado</span>
+         <br>
+         <span>Ingrese el texto que desees encriptar o desencriptar</span>
+         <br>
+         <button onclick="copiar()"  >Copiar</button>
+        </aside>
+    <section> 
+      <textarea name=""  id="texto" cols="30" rows="10"placeholder="Escribe lo que deseas encriptar o desencriptar"></textarea>
+    </section>
+    <div class="botonesyaviso">
+      <span id="aviso">Solo letras minúsculas y sin acentos</span>
+      <br>
+      <button onclick="validarCaracteres(1)" type="submit">Encriptar</button>
+      <button onclick="validarCaracteres(2)" type="submit">Desencriptar</button>
+    </div>
+
+    <footer>
+      <span>Diego Nazareth Lopez Zavala | 2024</span>
+      
+    </footer>
+    
+    </div>
+    
+        <script src="app.js" defer></script>
   </body>
 </html>
